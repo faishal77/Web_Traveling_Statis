@@ -1,0 +1,354 @@
+body{
+  background-color: whitesmoke;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.content{
+  width: 100%;
+  height: 50vmax;
+  clip-path: polygon(0 0, 30% 0, 100% 90%, 100% 100%, 0 100%, 0% 50%);
+  background-color: rgb(79, 161, 212);
+}
+h1{
+  line-height: 35vmax;
+  color: aliceblue;
+  font-family: roboto,sans-serif;
+  font-size: 6vmax;
+  margin-left: 4vmax;
+}
+h2{
+  margin-top: -14vmax;
+  color: aliceblue;
+  font-family: roboto,sans-serif;
+  font-size: 6vmax;
+  margin-left: 4vmax;
+}
+h3{
+  text-align: center;
+  margin-top: -2vmax;
+  font-size: 40px;
+  font-family: roboto,sans-serif;
+}
+.Penjelasan{
+  text-align: center;
+  overflow: hidden;
+  font-size: 20px;
+  margin-top: 1vmax;
+  color: rgb(42, 41, 41);
+}
+.keterangan{
+  width: 55%;
+  height: 10vmax;
+  margin-left: 4vmax;
+  font-size: 20px;
+  color: rgb(255, 248, 248);
+  margin-top: 1vmax;
+}
+.button{
+  width: 10vmax;
+  height: 3vmax;
+  position: absolute;
+  border-radius: 10px;
+  margin-top: 1vmax;
+  margin-left: 4vmax;
+  box-shadow: 1px -1px 1px 2px rgb(255, 255, 255);
+  text-align: center;
+  line-height: 3vmax;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: roboto,sans-serif;
+  font-weight: bold;
+}
+.bike{
+  height: 41vmax;
+  position: absolute;
+  margin-top: -41vmax;
+  margin-left: 37vmax;
+}
+
+/* Explore */
+
+.Explore{
+  width: 90%;
+  height: 30vmax;
+  margin:10vmax auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Explore-satu{
+  height: 23vmax;
+  box-shadow: 1px 4px 10px 5px  rgba(0,0,0,0.1),0px 10px 9px -8px rgba(59, 57, 57,.1);
+  border-radius: 20px;
+  width: 25%;
+  background-color: whitesmoke;
+}
+.explore{
+  margin-left: 25%;
+}
+.Travel{
+  height: 23vmax;
+  width: 25%;
+  box-shadow: 1px 4px 10px 5px  rgba(0,0,0,0.1),0px 10px 9px -8px rgba(59, 57, 57,.1);
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+.travel{
+  margin-left: 25%;
+}
+.Do-Hiking{
+  height: 23vmax;
+  box-shadow: 1px 4px 10px 5px  rgba(0,0,0,0.1),0px 10px 9px -8px rgba(59, 57, 57,.1);
+  border-radius: 20px;
+  width: 25%;
+  background-color: whitesmoke;
+}
+.heking{
+  margin-left: 25%;
+}
+
+/* Place */
+
+.Place{
+  display: flex;
+  width: 95%;
+  height: 5vmax;
+  margin:-4vmax auto;
+  justify-content: space-between;
+}
+h4{
+  line-height: 5vmax;
+  font-size: 45px;
+  font-family: roboto,sans-serif;
+}
+.Find-More{
+  margin-top: 1vmax;
+}
+
+/* Card */
+.Card{
+  width: 95%;
+  height: 35vmax;
+  margin: 8vmax auto;
+  /* background-color: aqua; */
+  display: flex;
+  position: static;
+  justify-content: space-around;
+}
+.Card-satu{
+  width: 30%;
+  height: 35vmax;
+  background-color: rgb(244, 231, 231,.3);
+  border-radius: 30px;
+  box-shadow: 1px 7px 50px 3px rgb(54, 49, 49,.2);
+
+}
+.Card-dua{
+  width: 30%;
+  height: 35vmax;
+  background-color: rgb(244, 231, 231,.3);
+  border-radius: 30px;
+  box-shadow: 1px 7px 50px 3px rgb(54, 49, 49,.2);
+
+}
+.Card-tiga{
+  width: 30%;
+  height: 35vmax;
+  background-color: rgb(244, 231, 231,.3);
+  border-radius: 30px;
+  box-shadow: 1px 7px 50px 3px rgb(54, 49, 49,.2);
+
+}
+
+.Galery{
+  background-color: blue;
+  width: 100%;
+  height: 20vmax;
+  border-radius: 35px;
+}
+.Visit{
+  height: 3vmax;
+  margin-top: 1vmax;
+  margin-left: 1vmax;
+}
+h5{
+ font-size: 25px;
+ margin-top: -3vmax;
+ display: flex;
+ font-weight: bold;
+ width: 80%;
+ justify-content: space-between;
+ line-height: 3vmax;
+ height: 3vmax;
+ margin-left: 5vmax;
+ font-family: roboto,sans-serif;
+}
+h6{
+  font-size: 2vmin;
+  margin-top: -1vmax;
+  display: flex;
+  line-height: 3vmax;
+  justify-content: space-between;
+  width: 80%;
+  height: 3vmax;
+  /* background-color: aquamarine; */
+  margin-left: 5vmax;
+  color: rgb(63, 56, 56);
+  font-family: roboto,sans-serif;
+ }
+ .Card .Card-satu h4{
+  font-size: 30px;
+  font-family: roboto,sans-serif;
+  font-weight: 200;
+  margin-top: -1vmax;
+
+}
+.Card .Card-dua h4{
+  font-size: 30px;
+  font-family: roboto,sans-serif;
+  font-weight: 200;
+  margin-top: -1vmax;
+
+}
+.Card .Card-tiga h4{
+  font-size: 30px;
+  font-family: roboto,sans-serif;
+  font-weight: 200;
+  margin-top: -1vmax;
+
+}
+.button-visit{
+  width: 12%;
+  position: absolute;
+  height: 4vmax;
+  border-radius: 10px;
+  background-color: rgb(79, 161, 212);
+  margin-top: 3vmax;
+  font-size: 25px;
+  margin-left: 8vmax;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  line-height: 4vmax;
+}
+.picture{
+  width: 35%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/src/assets/mountain.jfif);
+  margin-left: 62%;
+  border-radius: 15px;
+  height: 35vmax;
+}
+.picuture-2{
+  width: 20%;
+  position: absolute;
+  background-image: url(/src/assets/mountain-2.jfif);
+  margin-top: 17vmax;
+  margin-left: -13vmax;
+  background-color: aqua;
+  background-position: -10vmax 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  height: 20vmax;
+  
+}
+.Destination{
+  width: 39%;
+  border-block-start: 10px solid;
+  padding-block-start:10px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(60deg, rgb(79, 161, 212), whitesmoke);
+  margin-top: -30vmax;
+  margin-left: 3vmax;
+  height: 38vmax;
+}
+.Destination h4{
+  font-size: 4vmax;
+  color: rgb(66, 57, 57);
+}
+.Destination-about{
+  margin-top: 1vmax;
+  font-size: 1vmax;
+  color: rgb(54, 51, 51);
+}
+.More-About-Us{
+  height: 3vmax;
+  background-color: rgb(79, 161, 212);
+  width: 11vmax;
+  border-radius: 10px;
+  margin-top: 3vmax;
+  line-height: 3vmax;
+  color: aliceblue;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  border: none;
+  font-family: roboto,sans-serif;
+}
+
+/* Destinasi 2 */
+
+.picture-tiga{
+  width: 35%;
+  background-color: aquamarine;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/src/assets/see\ word.jfif);
+  height: 35vmax;
+  margin-left: 3vmax;
+  border-radius: 15px;
+}
+.picture-empat{
+  width: 20%;
+  position: absolute;
+  background-image: url(/src/assets/see-word-2.jfif);
+  background-color: aqua;
+  background-position: -10vmax 0;
+  background-size: cover;
+  margin-left: 25vmax;
+  margin-top: 20vmax;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  height: 20vmax;
+  
+}
+.Destination-dua{
+  width: 42%;
+  border-block-start: 10px solid;
+  padding-block-start:10px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(-60deg, rgb(79, 161, 212), whitesmoke);
+  margin-top: -26vmax;
+  margin-left: 55%;
+  height: 38vmax;
+}
+.Destination-dua h4{
+  font-size: 4vmax;
+  color: rgb(66, 57, 57);
+}
+.Destination-about-dua{
+  margin-top: 1vmax;
+  font-size: 1vmax;
+  color: rgb(54, 51, 51);
+}
+.More-About-Us-dua{
+  height: 3vmax;
+  background-color: rgb(79, 161, 212);
+  width: 11vmax;
+  border-radius: 10px;
+  margin-top: 3vmax;
+  line-height: 3vmax;
+  color: aliceblue;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  border: none;
+  font-family: roboto,sans-serif;
+}

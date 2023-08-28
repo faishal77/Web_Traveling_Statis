@@ -1,0 +1,77 @@
+.Navbar{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding:20px 0;
+  margin-top: -50%;
+  color: black;
+  position: absolute;
+  z-index: 8;
+}
+.Navbar ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 30%;
+  justify-content: space-between;
+  font-family: 'Lobster', cursive;
+ 
+}
+.Navbar ul li a{
+  color: rgb(69, 68, 68);
+  text-decoration: none;
+  font-size: 15px;
+  font-family: roboto,sans-serif;
+
+}
+.Navbar ul li .Active{
+  color: rgb(255, 248, 248);
+}
+.Navbar .logo{
+  font-family: 'Righteous', cursive;
+  letter-spacing: 4px;
+  margin-left: -13vmax;
+  font-size: 30px;
+}
+.Button-Sign-up{
+  width:100px;
+  height:40px;
+  border-radius: 4px;
+  margin-top: -7px;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 90%;
+  line-height: 40px;
+  text-align:center;
+  font-family: roboto,sans-serif;
+  font-size:15px;
+  color: black;
+}
+.Button-Log-In{
+  width:90px;
+  height:35px;
+  background-color: rgb(79, 161, 212);
+  border-radius: 10px;
+  margin-top: -7px;
+  position: absolute;
+  margin-left: 77%;
+  line-height: 40px;
+  text-align:center;
+  text-decoration: none;
+  font-size: roboto,sans-serif;
+  font-size:15px;
+  color: aliceblue;
+}
+.Active{
+  width: 4%;
+  background-color:rgb(79, 161, 212);
+  height: 4vmax;
+  position: absolute;
+  border-radius: 0 0 20px 20px;
+  margin-top: -2vmax;
+  z-index: -1;
+  text-align: center;
+  line-height: 5vmax;
+  margin-left: -1vmax;
+}
